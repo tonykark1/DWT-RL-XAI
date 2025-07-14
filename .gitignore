@@ -1,4 +1,26 @@
-.Rproj.user
+# RStudio files
+.Rproj.user/
 .Rhistory
 .RData
 .Ruserdata
+
+# renv / package management
+renv/
+
+
+# Data and Output
+data/
+output/
+plots/
+results/
+
+# IDE specific files
+.vscode/ # If you use VS Code
+.idea/   # If you use IntelliJ/PyCharm
+
+# Logs
+*.log
+
+# OS generated files# OS generated files
+Thumbs.db # Windows
+.DS_Store # macOS
