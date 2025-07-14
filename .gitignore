@@ -24,3 +24,20 @@ results/
 # OS generated files# OS generated files
 Thumbs.db # Windows
 .DS_Store # macOS
+# --- Obsidian related files ---
+# Ignore workspace files (these change frequently based on open notes, pane layout)
+.obsidian/workspace.json
+.obsidian/workspaces.json
+.obsidian/workspace-mobile.json # For mobile sync if applicable
+
+# Ignore cache files
+.obsidian/cache/
+
+# Ignore backups (if Obsidian creates its own backups within the vault)
+.obsidian/backups/
+
+# Ignore plugin data that might be very large or temporary
+# (Only add these if you know a specific plugin generates large,
+# non-essential files, e.g., large index files for Smart Connections)
+# .obsidian/plugins/*/data.json
+# .obsidian/plugins/smart-connections/
